@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   font-family: 'Outfit', sans-serif;
   display: flex;
@@ -36,7 +41,6 @@
   font-weight: 700;
   overflow: wrap;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .qr-text {
@@ -45,6 +49,7 @@
   text-align: center;
   font-weight: 400;
   overflow: wrap;
+  margin-top: 1rem;
 }
 
 .attribution {
